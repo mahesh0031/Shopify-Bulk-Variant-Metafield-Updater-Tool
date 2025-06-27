@@ -1,0 +1,20 @@
+{
+  "name": "shopify_bulk_metafiled_update",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "update-metafields": "node setVariantMetafields.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "form-data": "^4.0.3",
+    "xml2js": "^0.6.2"
+  }
+}
